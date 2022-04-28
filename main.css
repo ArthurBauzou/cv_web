@@ -1,0 +1,100 @@
+/* GENERAL */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.3;
+}
+body {
+    background-color: rgb(38, 31, 27);
+    display: flex;
+    flex-flow: column;
+    scrollbar-width: none;
+}
+main {
+    margin: 64px auto;
+    padding: 32px;
+    width: 680px;
+    background-color: rgb(192, 182, 159);
+    position: relative;
+}
+h2 {
+    font-size: 26px;
+}
+h3 {
+    font-size: 20px;
+}
+
+/* PHOTO */
+#photo {
+    position : absolute;
+    top : -32px;
+    right: -64px;
+    width: 320px;
+}
+#photo img {
+    border-radius: 50%;
+    width : 100%;
+}
+
+/* CONTACT */
+.contact {
+    list-style: none;
+}
+.contact li {
+    display: flex;
+    flex-flow: nowrap row;
+    padding: 4px 0px;
+    font-size: 13px;
+}
+.contact i {
+    margin-top: 4px;
+    margin-right: 16px;
+}
+
+/* EXPERIENCES ET FORMATIONS */
+.mainblock > div {
+    display: flex;
+    flex-flow: nowrap row;
+    padding-right: 24px;
+}
+.date {
+    background-color: rgb(116, 100, 76);
+    color: rgb(192, 182, 159);
+    font-size: 14px;
+    width: fit-content;
+    padding: 0px 12px;
+    border-radius: 12px 0px 0px 12px;
+    line-height: normal;
+    height: 18px;
+    margin-top: 16px;
+    margin-left: 12px;
+}
+.etiquette {
+    margin: 8px 0px;
+    padding: 2px 16px 4px 12px;
+    border-left: 0.3px solid rgb(116, 100, 76);
+    border-radius: 0px 28px 28px 0px;
+    width: 100%;
+}
+.etiquette:hover {
+    background-color:rgb(223, 217, 203);
+    cursor: default;
+    padding-left: 14px;
+
+}
+.etiquette h3 {
+    margin: 0px 0px 4px 0px;
+    /* line-height: 1; */
+}
+.etiquette span {
+    color: rgb(116, 100, 76);
+    padding: 0px 12px;
+    border-left: 0.2px solid rgb(116, 100, 76);
+    line-height: 1;
+}
+.etiquette span:first-of-type {
+    padding-left: 0px;
+    border: none;
+}
+
