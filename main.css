@@ -52,6 +52,42 @@ h3 {
     margin-right: 16px;
 }
 
+/* COMPÉTENCES */
+.compblock {
+    display: flex;
+    flex-flow: wrap row;
+}
+.compblock h2 {
+    width: 100%;
+}
+.compblock h4 {
+    font-size: 18px;
+    background-color: rgb(116, 100, 76);
+    padding: 4px 12px;
+    margin-bottom: 8px;
+    color:rgb(192, 182, 159);
+    border-radius: 0px 16px 16px 0px;
+    margin-top: 0px;
+}
+.compblock > div {
+    border-left: 0.3px solid rgb(116, 100, 76);
+    width: 272px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+.compblock ul {
+    list-style: none;
+    margin-left: 16px;
+}
+.compscore {
+    float: right;
+    padding-right: 24px;
+    color:rgb(116, 100, 76);
+    font-size: 12px;
+    padding-top: 2px;
+}
+
+
 /* EXPERIENCES ET FORMATIONS */
 .mainblock > div {
     display: flex;
