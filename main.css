@@ -1,4 +1,7 @@
 /* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -19,38 +22,58 @@ main {
     position: relative;
 }
 h2 {
-    font-size: 26px;
+    /* font-family: 'Oxygen', sans-serif; */
+    font-size: 32px;
+    margin-bottom: 24px;
 }
 h3 {
     font-size: 20px;
 }
 
+
 /* PHOTO */
 #photo {
     position : absolute;
-    top : -32px;
-    right: -64px;
-    width: 320px;
+    top : -20px;
+    right: 8px;
+    width: 240px;
 }
 #photo img {
-    border-radius: 50%;
+    border-radius: 45%;
     width : 100%;
 }
 
-/* CONTACT */
+
+/* IDENTITÉ */
+.idblock {
+    display: flex;
+    flex-flow: nowrap row;
+    height: 196px;
+}
+.idblock h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+    color:rgb(38, 31, 27)
+}
 .contact {
     list-style: none;
+    margin-top: 24px;
+    margin-left: auto;
 }
 .contact li {
     display: flex;
     flex-flow: nowrap row;
-    padding: 4px 0px;
+    padding: 3px 0px;
     font-size: 13px;
 }
 .contact i {
-    margin-top: 4px;
-    margin-right: 16px;
+    font-size: 16px;
+    margin-bottom: 6px;
+    margin-right: 18px;
+    color:rgb(99, 85, 65);
 }
+
 
 /* COMPÉTENCES */
 .compblock {
@@ -62,7 +85,7 @@ h3 {
 }
 .compblock h4 {
     font-size: 18px;
-    background-color: rgb(116, 100, 76);
+    background-color: rgb(99, 85, 65);
     padding: 4px 12px;
     margin-bottom: 8px;
     color:rgb(192, 182, 159);
@@ -70,7 +93,7 @@ h3 {
     margin-top: 0px;
 }
 .compblock > div {
-    border-left: 0.3px solid rgb(116, 100, 76);
+    border-left: 0.3px solid rgb(99, 85, 65);
     width: 272px;
     margin-left: 16px;
     margin-bottom: 16px;
@@ -82,7 +105,7 @@ h3 {
 .compscore {
     float: right;
     padding-right: 24px;
-    color:rgb(116, 100, 76);
+    color:rgb(99, 85, 65);
     font-size: 12px;
     padding-top: 2px;
 }
@@ -95,7 +118,7 @@ h3 {
     padding-right: 24px;
 }
 .date {
-    background-color: rgb(116, 100, 76);
+    background-color: rgb(99, 85, 65);
     color: rgb(192, 182, 159);
     font-size: 14px;
     width: fit-content;
@@ -109,7 +132,7 @@ h3 {
 .etiquette {
     margin: 8px 0px;
     padding: 2px 16px 4px 12px;
-    border-left: 0.3px solid rgb(116, 100, 76);
+    border-left: 0.3px solid rgb(99, 85, 65);
     border-radius: 0px 28px 28px 0px;
     width: 100%;
 }
@@ -117,20 +140,17 @@ h3 {
     background-color:rgb(223, 217, 203);
     cursor: default;
     padding-left: 14px;
-
 }
 .etiquette h3 {
     margin: 0px 0px 4px 0px;
-    /* line-height: 1; */
 }
 .etiquette span {
-    color: rgb(116, 100, 76);
+    color: rgb(99, 85, 65);
     padding: 0px 12px;
-    border-left: 0.2px solid rgb(116, 100, 76);
+    border-left: 0.2px solid rgb(99, 85, 65);
     line-height: 1;
 }
 .etiquette span:first-of-type {
     padding-left: 0px;
     border: none;
 }
-
