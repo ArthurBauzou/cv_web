@@ -151,13 +151,13 @@
         <div class="etiquette">
           <h3>Ingénieur de maintenace Grands Systèmes</h3>
           <span>BPCE</span><span>Aix-en-Provence</span>
+          <ul class="details" hidden>
+            <li>Département des épargnes et assurances en titres</li>
+            <li>Maintenance applicative quotidienne</li>
+            <li>Correctifs en COBOL / PACBASE</li>
+            <li>Gestion des incidents client</li>
+          </ul>
         </div>
-        <ul class="details" hidden>
-          <li>Département des épargnes et assurances en titres</li>
-          <li>Maintenance applicative quotidienne</li>
-          <li>Correctifs en COBOL / PACBASE</li>
-          <li>Gestion des incidents client</li>
-        </ul>
       </div>
 
       <div>
@@ -166,13 +166,13 @@
         <div class="etiquette">
           <h3>Ingénieur d’études et développement Mainframe</h3>
           <span>SOPRA STERIA</span><span>Lyon</span>
+          <ul class="details" hidden>
+            <li>Centre de service pour le Crédit Agricole</li>
+            <li>Au sein d’une équipe de  développement d’une solution de cash management</li>
+            <li>Développement en COBOL / PACBASE</li>
+            <li>Tests unitaires ; Recettes</li>
+          </ul>
         </div>
-        <ul class="details" hidden>
-          <li>Centre de service pour le Crédit Agricole</li>
-          <li>Au sein d’une équipe de  développement d’une solution de cash management</li>
-          <li>Développement en COBOL / PACBASE</li>
-          <li>Tests unitaires ; Recettes</li>
-        </ul>
       </div>
 
       <div>
@@ -181,13 +181,13 @@
         <div class="etiquette">
           <h3>Développeur front-end stagiaire</h3>
           <span>GENII</span><span>Paris</span>
+          <ul class="details" hidden>
+            <li>Stage de 3 mois : réalisation d’un site de partage de photo d’art urbain</li>
+            <li>Intégration responsive du design</li>
+            <li>Création des formulaires avec scripts de contrôle</li>
+            <li>Back-end : Symphony</li>
+          </ul>
         </div>
-        <ul class="details" hidden>
-          <li>Stage de 3 mois : réalisation d’un site de partage de photo d’art urbain</li>
-          <li>Integration responsive du design</li>
-          <li>Création des formulaires avec scripts de contrôle</li>
-          <li>Back-end : Symphony</li>
-        </ul>
       </div>
 
       <div>
@@ -196,12 +196,12 @@
         <div class="etiquette">
           <h3>Photographe Produit et Graphiste Web</h3>
           <span>Gandy Maroquinerie</span><span>Grenoble</span>
+          <ul class="details" hidden>
+            <li>Mise en valeur de produits de maroquinerie par la photo</li>
+            <li>Tri et développement virtuel avec Lightroom</li>
+            <li>Retouche, optimisation et référencement des images avec Photoshop</li>
+          </ul>
         </div>
-        <ul class="details" hidden>
-          <li>Mise en valeur de produits de maroquinerie par la photo</li>
-          <li>Tri et développement virtuel avec Lightroom</li>
-          <li>Retouche, optimisation et référencement des images avec Photoshop</li>
-        </ul>
       </div>
 
     </section>
@@ -215,13 +215,13 @@
         <div class="etiquette">
           <h3 class="forma-poste">Formation Angular & Nodejs</h3>
           <span class="forma-master">Softeam</span>
+          <ul class="details" hidden>
+            <li>MEAN Stack : MongoDB, Express, Angular, Nodejs</li>
+            <li>Méthode Agile</li>
+            <li>Développement mobile avec IONIC</li>
+            <li>Projets d’applications [à completer]</li>
+          </ul>
         </div>
-        <ul class="details" hidden>
-          <li>MEAN Stack : MongoDB, Express, Angular, Nodejs</li>
-          <li>Méthode Agile</li>
-          <li>Développement mobile avec IONIC</li>
-          <li>Projets d’applications [à completer]</li>
-        </ul>
       </div>
 
       <div>
@@ -229,12 +229,12 @@
         <div class="etiquette">
           <h3 class="forma-poste">Formation Préqualifiante Développeur Web</h3>
           <span class="forma-master">AJC Formation</span>
+          <ul class="details" hidden>
+            <li>Reconcersion professionnelle en informatique</li>
+            <li>Bases web : HTML, CSS, Bootstrap, Javascript, SQL</li>
+            <li>Conception de bases relationelles avec Merise</li>
+          </ul>
         </div>
-        <ul class="details" hidden>
-          <li>Reconcersion professionnelle en informatique</li>
-          <li>Bases web : HTML, CSS, Bootstrap, Javascript, SQL</li>
-          <li>Conception de bases relationelles avec Merise</li>
-        </ul>
       </div>
 
       <div>
@@ -242,30 +242,18 @@
         <div class="etiquette">
           <h3>Master 1 d’architecture</h3>
           <span>École d’Architecture de Grenoble</span>
+          <ul class="details" hidden>
+            <li>Mémoire de master : « La place du stationnement dans l’architecture »</li>
+            <li>PAO : Conception de planches en 2D avec Photoshop</li>
+            <li>CAO : Conception de bâtiments en 3D avec Sketchup et Archicad</li>
+          </ul>
         </div>
-        <ul class="details" hidden>
-          <li>Mémoire de master : « La place du stationnement dans l’architecture »</li>
-          <li>PAO : Conception de planches en 2D avec Photoshop</li>
-          <li>CAO : Conception de bâtiments en 3D avec Sketchup et Archicad</li>
-        </ul>
       </div>
 
     </section>
   </main>
 </body>
 
-<script type="text/javascript">
-
-let eti = document.querySelectorAll('.etiquette');
-
-function showdeta(e) {
-  
-  e.target.style.color = 'red';
-}
-
-eti.forEach(e => e.addEventListener('click', showdeta))
-
-
-</script>
+<script type="text/javascript" src="monscript.js"></script>
 
 </html>
