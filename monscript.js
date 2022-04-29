@@ -1,9 +1,12 @@
+
+// afficher les détails des experiences et des formations
 function showdetail(e) {
-    // console.log(e.currentTarget.parentNode.querySelector('ul'))
     let et = e.currentTarget.querySelector('ul');
-    et.hidden = !et.hidden
-    // e.target.style.color = 'red';
+    let dur = e.currentTarget.querySelector('span.duree');
+    et.hidden = !et.hidden;
+    if (dur) {dur.hidden = !dur.hidden};
 }
-    
+// création des boutons interactifs (event listeners)
 let etis = document.querySelectorAll('.etiquette');
 etis.forEach(e => e.addEventListener('click', showdetail))
+

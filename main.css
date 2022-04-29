@@ -1,6 +1,6 @@
 /* GENERAL */
 
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 * {
     margin: 0px;
@@ -16,13 +16,13 @@ body {
 }
 main {
     margin: 64px auto;
-    padding: 32px;
-    width: 680px;
+    padding: 32px 32px 78px 48px;
+    width: 720px;
     background-color: rgb(192, 182, 159);
     position: relative;
 }
 h2 {
-    /* font-family: 'Oxygen', sans-serif; */
+    /* font-family: 'Secular One', sans-serif; */
     font-size: 32px;
     margin-bottom: 24px;
 }
@@ -48,34 +48,50 @@ h3 {
 
 /* IDENTITÉ */
 .idblock {
-    padding: 24px;
+    padding: 24px 24px 32px 0px;
     display: flex;
     flex-flow: nowrap row;
-    height: 196px;
+    height: 220px;
 }
 .idblock h1 {
-    font-size: 40px;
+    padding-left: 24px;
+    font-size: 46px;
     font-weight: 700;
-    font-family: 'Oxygen', sans-serif;
-    color:rgb(38, 31, 27)
+    font-family: 'Secular One', sans-serif;
+    color:rgb(38, 31, 27);
+    line-height: 1;
 }
 .contact {
-    list-style: none;
-    margin-top: 24px;
-    padding-right: 24px;
+    margin-top: 16px;
+    padding: 12px;
     margin-left: auto;
+    margin-right: 20px;
+    overflow: hidden;
+    width: 32px;
+    transition: all 0.6s;
+    border-radius: 24px 0px 0px 24px;
+}
+.contact:hover  {
+    background-color: rgb(215, 206, 186);
+    cursor: pointer;
+    width: 220px;
 }
 .contact li {
     display: flex;
     flex-flow: nowrap row;
     padding: 3px 0px;
     font-size: 13px;
+    height: 32px;
 }
 .contact i {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 6px;
     margin-right: 18px;
     color:rgb(99, 85, 65);
+}
+.contact p {
+    margin-top: 4px;
+    white-space: nowrap;
 }
 
 
@@ -101,6 +117,8 @@ h3 {
     width: 272px;
     margin-left: 16px;
     margin-bottom: 16px;
+    margin-right: 16px;
+    
 }
 .compblock ul {
     list-style: none;
@@ -139,11 +157,12 @@ h3 {
     border-left: 0.3px solid rgb(99, 85, 65);
     border-radius: 0px 28px 28px 0px;
     width: 100%;
+    transition: all 0.2s;
 }
 .etiquette:hover {
-    background-color:rgb(223, 217, 203);
-    cursor: default;
-    padding-left: 14px;
+    background-color:rgb(215, 206, 186);
+    cursor: pointer;
+    /* padding-left: 14px; */
 }
 .etiquette h3 {
     margin: 0px 0px 4px 0px;
