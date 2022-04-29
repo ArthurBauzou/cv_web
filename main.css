@@ -22,7 +22,6 @@ main {
     position: relative;
 }
 h2 {
-    /* font-family: 'Secular One', sans-serif; */
     font-size: 32px;
     margin-bottom: 24px;
 }
@@ -30,58 +29,56 @@ h3 {
     font-size: 20px;
 }
 
-
-/* PHOTO */
-#photo {
-    position : absolute;
-    top : -20px;
-    right: 8px;
-    width: 240px;
-    height: 260px;
-    background-size: cover;
-}
-/* #photo img {
-    border-radius: 45%;
-    width : 100%;
-} */
-
-
 /* IDENTITÉ */
 .idblock {
     padding: 24px 24px 32px 0px;
     display: flex;
     flex-flow: nowrap row;
-    height: 220px;
+    height: 240px;
 }
 .idblock h1 {
-    padding-left: 24px;
-    font-size: 46px;
+    padding-left: 12px;
+    font-size: 42px;
     font-weight: 700;
     font-family: 'Secular One', sans-serif;
     color:rgb(38, 31, 27);
     line-height: 1;
+    margin-top: auto;
+    margin-right: 24px;
+    margin-bottom: 0;
+
+}
+.idblock img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid rgb(99, 85, 65);
+    flex-shrink: 0;
 }
 .contact {
-    margin-top: 16px;
-    padding: 12px;
+    margin-top: auto;
     margin-left: auto;
     margin-right: 20px;
+    padding: 12px;
     overflow: hidden;
     width: 32px;
     transition: all 0.6s;
     border-radius: 24px 0px 0px 24px;
+    flex-shrink: 0;
 }
 .contact:hover  {
     background-color: rgb(215, 206, 186);
     cursor: pointer;
     width: 220px;
+    flex-shrink: 0;
 }
 .contact li {
     display: flex;
     flex-flow: nowrap row;
     padding: 3px 0px;
     font-size: 13px;
-    height: 32px;
+    /* height: 32px; */
 }
 .contact i {
     font-size: 18px;
