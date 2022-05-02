@@ -6,18 +6,21 @@ function showDetail(e) {
     et.hidden = !et.hidden;
     if (dur) {dur.hidden = !dur.hidden};
 }
-// création des boutons interactifs (event listeners)
+// création des boutons interactifs sur les étiquettes
 let etis = document.querySelectorAll('.etiquette');
 etis.forEach(e => e.addEventListener('click', showDetail))
 
 
+// Création d’un onglet cliquable pour déployer les détails de contacts
 document.querySelector('.contact').addEventListener('click', (e) => {
-    if (e.currentTarget.deploy = "false") {
-        e.currentTarget.setAttribute("deploy", "true");
-        e.currentTarget.style.width = '240px';
+    if (!e.currentTarget.hasAttribute("deploy")) {
+        console.log("click1")
+        e.currentTarget.setAttribute("deploy", "");
+        e.currentTarget.style.width = '220px';
     }
     else {
-        e.currentTarget.style.width = '32px';
-        e.currentTarget.setAttribute("deploy", "false");
+        console.log("click2")
+        e.currentTarget.style.width = '';
+        e.currentTarget.removeAttribute("deploy");
     }
 })
