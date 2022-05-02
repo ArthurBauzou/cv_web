@@ -44,5 +44,4 @@ function showSection(e) {
 }
 // création des boutons de la version mobile
 let boumob = document.querySelectorAll('section h2:not(.profession)');
-console.log(boumob);
 boumob.forEach(b => b.addEventListener('click', showSection));
