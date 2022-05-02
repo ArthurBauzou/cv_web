@@ -3,7 +3,17 @@
     main {
         width: 100%;
         margin: 0px;
-        padding: 8px;
+        padding: 12px 0px 32px 0px;
+    }
+
+    h2 {
+        color: rgb(192, 182, 159);
+        background-color:rgb(99, 85, 65);
+        font-size: 20px;
+        padding: 20px;
+    }
+    .mobonly {
+        display: block;
     }
 
     /* IDENTITE */
@@ -14,10 +24,13 @@
     .idblock h1 {
         margin-right: auto;
     }
-    .profession {
-        padding-bottom: 32px;
+    .profession{
+        padding-bottom: 16px;
         margin: 12px auto;
         text-align: center;
+        color: black;
+        background-color: rgb(192, 182, 159);
+        font-size: 28px;
     }
     .idblock img {
         width: 30vw;
@@ -28,9 +41,16 @@
     .contact {
         display: none;
     }
+    div.mobhide {
+        display: none;
+    }
 
     /* COMPETENCES */
+    .compblock {
+        display: block;
+    }
     .compblock h2 {
+        margin-bottom: 8px;
         display: block;
     }
     .compblock > div {
@@ -39,10 +59,19 @@
     }
 
     /* EXPERIENCES */
+    .mainblock h2 {
+        margin-bottom: 8px;
+    }
     .mainblock > div {
+        margin: 0px 12px;
         padding: 0px;
+        padding-bottom: 8px;
         flex-flow: nowrap column;
         border-top: 1px solid rgb(99, 85, 65);
+    }
+    .mainblock > div:first-of-type {
+        border: none;
+
     }
     .date {
         background-color: rgb(192, 182, 159);
@@ -58,6 +87,7 @@
     }
     .etiquette h3 {
         font-size: 18px;
+        margin: 0px;
     }
     .etiquette span {
         font-size: 12px;

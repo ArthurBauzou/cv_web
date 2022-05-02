@@ -28,6 +28,9 @@ h2 {
 h3 {
     font-size: 20px;
 }
+.mobonly {
+    display: none;
+}
 
 /* IDENTITÉ */
 .idblock {
@@ -159,7 +162,6 @@ h3 {
 .etiquette:hover {
     background-color:rgb(215, 206, 186);
     cursor: pointer;
-    /* padding-left: 14px; */
 }
 .etiquette h3 {
     margin: 0px 0px 4px 0px;
