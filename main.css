@@ -78,7 +78,6 @@ h3 {
     flex-flow: nowrap row;
     padding: 3px 0px;
     font-size: 13px;
-    /* height: 32px; */
 }
 .contact i {
     font-size: 18px;
@@ -99,6 +98,7 @@ h3 {
 }
 .compblock h2 {
     width: 100%;
+    display: none;
 }
 .compblock h4 {
     font-size: 18px;
