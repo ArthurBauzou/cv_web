@@ -54,7 +54,7 @@
         display: block;
     }
     .compblock > div {
-        width: 70vw;
+        width: 80vw;
         margin: 8px auto;
     }
 
@@ -92,6 +92,7 @@
     .etiquette span {
         font-size: 12px;
         display: none;
+        white-space: nowrap;
     }
 
     /* CONTACT */
